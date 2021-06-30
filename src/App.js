@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import GridBoard from './components/GridBoard';
 import NextBlock from './components/NextBlock';
-
-import GridSquare from './components/GridSquare'
+import GridSquare from './components/GridSquare';
+import ScoreBoard from './components/ScoreBoard';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <GridSquare color="1" />
       <GridBoard />
       <NextBlock />
+      <ScoreBoard />
     </div>
   );
 }
